@@ -97,15 +97,20 @@ textarea {
 /* Index CSS */
 
 #index-title-column {
-    background: blue;
+    background: rgb(31, 223, 223);
     text-align: center;
+    padding-bottom: 30px;
 }
 .nested-div-containing-posts {
     display: flex;
     justify-content: center;
-    background: skyblue;
-    margin: 10px;
-    margin-left: 40px;
+    background: rgba(121, 133, 133, 0.56);
+    margin: 10px 10px;
+}
+.index-posts{
+    background: white;
+    width: 75%;
+    height: 100px;
 }
 
 
