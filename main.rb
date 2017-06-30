@@ -24,3 +24,7 @@ end
 get '/profile' do
   erb :profile
 end
+
+post '/sign_in' do
+
+end
