@@ -94,6 +94,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Index CSS */
+
+#index-title-column {
+    background: rgb(31, 223, 223);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.nested-div-containing-posts {
+    display: flex;
+    justify-content: center;
+    background: rgba(121, 133, 133, 0.56);
+    margin: 10px 10px;
+}
+.index-posts{
+    background: white;
+    width: 75%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
