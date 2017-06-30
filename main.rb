@@ -26,5 +26,6 @@ get '/profile' do
 end
 
 post '/sign_in' do
-
+  session[:user] = User.find_by(username: params[:username])
+  redirect '/' if session[:user] && session[:user].password != params[:password]
 end
