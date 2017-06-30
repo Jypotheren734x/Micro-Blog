@@ -94,7 +94,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Index CSS */
 
+#index-title-column {
+    background: blue;
+    text-align: center;
+}
+.nested-div-containing-posts {
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+    margin: 10px;
+    margin-left: 40px;
+}
 
 
 
