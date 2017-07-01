@@ -118,9 +118,20 @@ textarea {
     width: 75%;
     height: 100px;
 }
-
-
-
+.nested-posts {
+    display: flex;
+    width: 100%;
+}
+.post-link {
+    background: black;
+}
+.index-profile-image {
+    margin: 5px;
+    float: left;
+}
+.containment-div {
+    width: 500px;
+}
 
 
 
