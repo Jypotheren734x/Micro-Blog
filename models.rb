@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
 	has_many :posts
 	has_many :users, through: :user_friends
 	has_many :user_friends
+	has_secure_password
 end
 
 class Game < ActiveRecord::Base

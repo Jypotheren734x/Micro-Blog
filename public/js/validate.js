@@ -1,59 +1,47 @@
 /**
  * Created by nick on 6/30/17.
  */
-function check(){
-    var ucase = new RegExp("[A-Z]+");
-    var lcase = new RegExp("[a-z]+");
-    var num = new RegExp("[0-9]+");
-    console.log($('#password'));
-
-    if($("#password").val().length >= 8){
-        $("#8char").removeClass("fa-remove");
-        $("#8char").addClass("fa-ok");
-        $("#8char").css("color","#00A41E");
-    }else{
-        $("#8char").removeClass("fa-ok");
-        $("#8char").addClass("fa-remove");
-        $("#8char").css("color","#FF0004");
-    }
-
-    if(ucase.test($("#password").val())){
-        $("#ucase").removeClass("fa-remove");
-        $("#ucase").addClass("fa-ok");
-        $("#ucase").css("color","#00A41E");
-    }else{
-        $("#ucase").removeClass("fa-ok");
-        $("#ucase").addClass("fa-remove");
-        $("#ucase").css("color","#FF0004");
-    }
-
-    if(lcase.test($("#password").val())){
-        $("#lcase").removeClass("fa-remove");
-        $("#lcase").addClass("fa-ok");
-        $("#lcase").css("color","#00A41E");
-    }else{
-        $("#lcase").removeClass("fa-ok");
-        $("#lcase").addClass("fa-remove");
-        $("#lcase").css("color","#FF0004");
-    }
-
-    if(num.test($("#password").val())){
-        $("#num").removeClass("fa-remove");
-        $("#num").addClass("fa-ok");
-        $("#num").css("color","#00A41E");
-    }else{
-        $("#num").removeClass("fa-ok");
-        $("#num").addClass("fa-remove");
-        $("#num").css("color","#FF0004");
-    }
-
-    if($("#password").val() == $("#password-confirm").val()){
-        $("#pwmatch").removeClass("fa-remove");
-        $("#pwmatch").addClass("fa-ok");
-        $("#pwmatch").css("color","#00A41E");
-    }else{
-        $("#pwmatch").removeClass("fa-ok");
-        $("#pwmatch").addClass("fa-remove");
-        $("#pwmatch").css("color","#FF0004");
-    }
-}
+$(function () {
+    $("#sign_up_form").validate({
+        showErrors: function(errorMap, errorList) {
+            errorList.forEach(function (p1, p2, p3) {
+                $("#error"+p1.element.id).html('<i class="fa fa-remove">'+p1.message + '</i>');
+            });
+        },
+        rules: {
+            name:{
+                required: true,
+                minlength: 5,
+                maxlength: 50
+            },
+            username:{
+              required: true,
+                minlength: 5,
+                maxlength: 50
+            },
+            age:{
+                required: true,
+                digits: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            password: {
+                required: true,
+                minlength: 8,
+                maxlength: 50
+            },
+            password_confirm:    {
+                equalTo: "#password",
+                minlength: 8,
+                maxlength: 50
+            }
+        },
+        message: {
+            password: {
+                required:"the password is required"
+            }
+        }
+    });
+});
