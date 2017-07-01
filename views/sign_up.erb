@@ -3,6 +3,7 @@
       $('#login').hide();
   })
 </script>
+<script src="js/validate.js"></script>
 <div class="container">
   <form class="form-horizontal" role="form" method="POST" action="/sign_up">
     <div class="row">
@@ -50,6 +51,7 @@
         <div class="form-control-feedback">
                         <span class="text-danger align-middle">
                             <!-- Put name validation error messages here -->
+                            <label>That Username is taken</label>
                         </span>
         </div>
       </div>
@@ -111,8 +113,15 @@
       </div>
       <div class="col-md-3">
         <div class="form-control-feedback">
-                        <span class="text-danger align-middle">
-                        </span>
+            <span class="text-danger align-middle"></span>
+            <div class="col-sm-6">
+              <span id="8char" class="fa fa-remove" style="color:#FF0004;"></span> 8 Characters Long<br>
+              <span id="ucase" class="fa fa-remove" style="color:#FF0004;"></span> One Uppercase Letter
+            </div>
+            <div class="col-sm-6">
+              <span id="lcase" class="fa fa-remove" style="color:#FF0004;"></span> One Lowercase Letter<br>
+              <span id="num" class="fa fa-remove" style="color:#FF0004;"></span> One Number
+            </div>
         </div>
       </div>
     </div>
@@ -124,6 +133,7 @@
         <div class="form-group">
           <div class="input-group mb-2 mr-sm-2 mb-sm-0">
             <div class="input-group-addon" style="width: 2.6rem">
+
               <i class="fa fa-repeat"></i>
             </div>
             <input type="password" name="password-confirmation" class="form-control"
