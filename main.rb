@@ -25,7 +25,14 @@ get '/profile' do
   erb :profile
 end
 
+get '/sign_up' do
+  erb :sign_up
+end
+
 post '/sign_in' do
   session[:user] = User.find_by(username: params[:username])
-  redirect '/' if session[:user] && session[:user].password != params[:password]
+  if session[:user] && session[:user].password != params[:password]
+    session[:failed] = true
+    redirect '/'
+  end
 end
