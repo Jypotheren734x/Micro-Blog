@@ -55,10 +55,18 @@
             </form>
             <% if !session[:user].nil? %>
                 <li class="nav-item dropdown-toggle-split navbar-toggler-right" id="username">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= session[:user].username %></a>
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/favicon.ico"></a>
                   <ul id="user-dp" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a href="/profile" class="nav-link">Profile</a></li>
-                      <li><a href="/settings" class="nav-link">Settings</a></li>
+                        <div class="modal-header">
+                          <h5 class="modal-title"></h5>
+                        </div>
+                        <div class="modal-body">
+                          <h4><%= session[:user].username %></h4>
+                          <p>Posts: <%= session[:user].number_of_posts %></p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href='/sign_out' class="nav-link">Logout</a>
+                        </div>
                   </ul>
                 </li>
             <% else %>

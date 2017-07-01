@@ -32,6 +32,10 @@ end
 post '/sign_up' do
   params.delete("captures")
   params[:date_joined] = Time.current
+  params[:number_of_posts] = 0
+  params[:rating] = 0
+  params[:number_of_posts] = 0
+  params[:visibility] = 111_111
   user = User.new(params)
   if user.save
     redirect '/sign_in'
