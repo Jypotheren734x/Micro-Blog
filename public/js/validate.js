@@ -11,7 +11,8 @@ $( document ).ready( function () {
             name: {required: true},
             username: {
                 required: true,
-                minlength: 2
+                minlength: 2,
+                maxlength: 50
             },
             password: {
                 required: true,
@@ -31,7 +32,8 @@ $( document ).ready( function () {
             name: "Please enter your name",
             username: {
                 required: "Please enter a username",
-                minlength: "Your username must consist of at least 2 characters"
+                minlength: "Your username must consist of at least 2 characters",
+                maxlength: "Your username must consist of less then 50 characters"
             },
             password: {
                 required: "Please provide a password",
