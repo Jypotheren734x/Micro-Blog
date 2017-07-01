@@ -36,11 +36,11 @@ post '/sign_up' do
   params[:rating] = 0
   params[:number_of_posts] = 0
   params[:visibility] = 111_111
-  user = User.new(params)
+  user = User.first_or_create(params)
   if user.save
     redirect '/sign_in'
   else
-    redirect '/'
+    redirect '/sign_up'
   end
 end
 
@@ -50,9 +50,7 @@ end
 
 post '/sign_in' do
   user = User.find_by(username: params[:username])
-  if user && user.authenticate(params[:password])
-    session[:user] = user
-  end
+  session[:user] = user if user && user.authenticate(params[:password])
   redirect '/'
 end
 
