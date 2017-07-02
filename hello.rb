@@ -14,6 +14,10 @@ get '/games' do
   erb :games
 end
 
+get '/new_post' do
+  erb :new_post
+end
+
 get '/popular' do
   erb :popular
 end

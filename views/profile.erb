@@ -27,7 +27,6 @@
     </div>
   </div>
   <div id="user-posts" class="col-8">
-    <h4><i class="fa fa-paper-plane-o"></i>New Post</h4>
     <div class="col-10 offset-1 nested-div-containing-posts">
       <% posts = Post.where(user_id: session[:user].id)
          for post in posts %>
