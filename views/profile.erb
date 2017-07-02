@@ -28,16 +28,13 @@
   </div>
   <div id="user-posts" class="col-8">
     <div class="col-10 offset-1 nested-div-containing-posts">
-      <button class="fa fa-plus">New Post</button>
-      <div class="well">
-        <h4><i class="fa fa-paper-plane-o"></i> New Post:</h4>
-        <form role="form">
-          <div class="form-group">
-            <textarea class="form-control" rows="3"></textarea>
-          </div>
-          <button type="submit" name="say" value="" class="btn btn-primary"><i class="fa fa-reply"></i> Submit</button>
-        </form>
-      </div>
+      <h4><i class="fa fa-paper-plane-o"></i> New Post:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" name="say" value="" class="btn btn-primary"><i class="fa fa-reply"></i> Submit</button>
+      </form>
       <% posts = Post.where(user_id: session[:user].id)
          for post in posts %>
       <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
