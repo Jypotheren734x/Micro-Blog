@@ -123,10 +123,24 @@ textarea {
 .containment-div {
     width: 500px;
 }
+
+/* Game page */
 #games-img-container {
     width: 960px;
 }
+/* Popular page */
+#popular-title-column{
+    background: silver;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+/* Trending */
+#trending-title-column{
+    background: rgb(116, 30, 153);
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 
 
