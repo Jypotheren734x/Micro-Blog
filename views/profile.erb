@@ -1,0 +1,58 @@
+<div class="row">
+  <div id="user-info" class="card col-2">
+    <div class="card" style="width: 25rem;">
+      <img class="card-img-top" src="img/tile.png" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title"><%= session[:user].username %></h4>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="input-group">
+          <span class="input-group-addon"><button class="fa fa-edit"></button></span>
+          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].name %>">
+        </li>
+        <li class="input-group">
+          <span class="input-group-addon"><button class="fa fa-edit"></button></span>
+          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].username %>">
+        </li>
+        <li class="input-group">
+          <span class="input-group-addon"><button class="fa fa-edit"></button></span>
+          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].email %>">
+        </li>
+        <li class="input-group">
+          <span class="input-group-addon"><button class="fa fa-edit"></button></span>
+          <input type="number" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].age %>">
+        </li>
+        <li class="list-group-item">Rating: <%= session[:user].rating %></li>
+      </ul>
+    </div>
+  </div>
+  <div id="user-posts" class="col-8">
+    <div class="col-10 offset-1 nested-div-containing-posts">
+      <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
+      <div class="containment-div">
+        <div class="index-title-div">
+          <h3 class="index-post-title">Title</h3>
+        </div>
+        <div class="index-post-content">
+          <a class="post-link" href="">Post goes here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="user-friends" class="col-2">
+    <div class="container">
+        <div class="top">
+          <h2>Friend's List</h2>
+        </div>
+        <div class="row">
+          <div class="shadow">
+            <div class="col-sm-12">
+                <img src="https://www.infrascan.net/demo/assets/img/avatar5.png" class="img-circle" width="60px">
+                <h4><a href="#">John Doe</a></h4>
+                <p><a href="#">0 mutual friends</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
