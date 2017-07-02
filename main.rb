@@ -24,3 +24,37 @@ end
 get '/profile' do
   erb :profile
 end
+
+get '/sign_up' do
+  erb :sign_up
+end
+
+post '/sign_up' do
+  params.delete("captures")
+  params[:date_joined] = Time.current
+  params[:number_of_posts] = 0
+  params[:rating] = 0
+  params[:number_of_posts] = 0
+  params[:visibility] = 111_111
+  user = User.first_or_create(params)
+  if user.save
+    redirect '/sign_in'
+  else
+    redirect '/sign_up'
+  end
+end
+
+get '/sign_in' do
+  erb :index
+end
+
+post '/sign_in' do
+  user = User.find_by(username: params[:username])
+  session[:user] = user if user && user.authenticate(params[:password])
+  redirect '/'
+end
+
+get '/sign_out' do
+  session[:user] = nil
+  redirect '/'
+end
