@@ -113,17 +113,8 @@ textarea {
     background: rgba(121, 133, 133, 0.56);
     margin: 10px 10px;
 }
-.index-posts{
-    background: white;
-    width: 75%;
-    height: 100px;
-}
-.nested-posts {
-    display: flex;
-    width: 100%;
-}
 .post-link {
-    background: black;
+
 }
 .index-profile-image {
     margin: 5px;
@@ -132,7 +123,9 @@ textarea {
 .containment-div {
     width: 500px;
 }
-
+#games-img-container {
+    width: 960px;
+}
 
 
 
