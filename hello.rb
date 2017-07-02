@@ -1,9 +1,10 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require './models'
+require './config/environments'
 
 enable :sessions
-set :database, 'sqlite3:blog.sqlite3'
+ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://egxuymljkrmkde:2ae62d8dd5520103286b31a5955ef12f576f235adf4588091dd72a7f04b34905@ec2-107-22-162-158.compute-1.amazonaws.com:5432/dffe37v92mjfrd')
 
 get '/' do
   erb :index
@@ -36,8 +37,9 @@ post '/sign_up' do
   params[:rating] = 0
   params[:number_of_posts] = 0
   params[:visibility] = 111_111
-  user = User.first_or_create(params)
+  user = User.new(params)
   if user.save
+    session[:user] = user
     redirect '/sign_in'
   else
     redirect '/sign_up'

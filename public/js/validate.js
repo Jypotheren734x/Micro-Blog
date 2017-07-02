@@ -1,6 +1,7 @@
 
 $.validator.setDefaults( {
     submitHandler: function () {
+        $('#sign_up_form').submit();
         alert( "submitted!" );
     }
 } );
