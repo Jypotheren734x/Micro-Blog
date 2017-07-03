@@ -1,19 +1,19 @@
 class User < ActiveRecord::Base
-	has_many :posts
-	has_many :users, through: :user_friends
-	has_many :user_friends
-	has_secure_password
+  has_many :posts
+  has_many :users, through: :user_friends
+  has_many :user_friends
+  has_secure_password
 end
 
 class Game < ActiveRecord::Base
-	belongs_to :user
+  belongs_to :user
 end
 
 class Post < ActiveRecord::Base
-	belongs_to :user
+  belongs_to :user
 end
 
 class User_friend < ActiveRecord::Base
-	belongs_to :user
-	belongs_to :friend, :class_name => 'User'
+  belongs_to :user
+  belongs_to :friend, :class_name => 'User'
 end

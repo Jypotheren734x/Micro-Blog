@@ -39,6 +39,10 @@ get '/profile' do
   erb :profile
 end
 
+post '/profile' do
+  User.update_attribute(name: params[:name])
+end
+
 get '/sign_up' do
   erb :sign_up
 end
