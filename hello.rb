@@ -28,6 +28,8 @@ end
 
 post '/new_post' do
   post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id, date_created: Time.current)
+  User.find_by(id: session[:user].id).update(number_of_posts: session[:user].number_of_posts + 1)
+  session[:user] = User.find_by(id: session[:user].id)
   if post.save
     redirect '/profile'
   else
@@ -93,6 +95,14 @@ get '/sign_out' do
   redirect '/'
 end
 
-get '/all' do
-  erb :all
+get '/search_results' do
+  if !params[:querry].nil?
+    @users = User.where('username LIKE ?', '%' + params[:querry] +'%').all
+    @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all
+    @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all
+    @users.each do |user|
+      @results += Post.where(user_id: user.id)
+    end
+  end
+  erb :search_results
 end
