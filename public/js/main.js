@@ -1,16 +1,6 @@
 $(function () {
-    /* BOOTSNIPP FULLSCREEN FIX */
-    if (window.location == window.parent.location) {
-        $('#back-to-bootsnipp').removeClass('hide');
-    }
-
-
     $('[data-toggle="tooltip"]').tooltip();
 
-    $('#fullscreen').on('click', function(event) {
-        event.preventDefault();
-        window.parent.location = "http://bootsnipp.com/iframe/4l0k2";
-    });
     $('a[href="#cant-do-all-the-work-for-you"]').on('click', function(event) {
         event.preventDefault();
         $('#cant-do-all-the-work-for-you').modal('show');
