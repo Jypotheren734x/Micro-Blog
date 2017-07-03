@@ -19,8 +19,12 @@ get '/new_post' do
 end
 
 post '/new_post' do
-  Post.new(title: params[:title], content: params[:content], user_id: session[:user].id)
-  redirect '/profile'
+  post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id)
+  if post.save
+    redirect '/profile'
+  else
+    redirect '/new_post'
+  end
 end
 
 get '/popular' do
