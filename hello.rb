@@ -40,7 +40,11 @@ get '/profile' do
 end
 
 post '/profile' do
-  User.update_attribute(name: params[:name])
+  User.update_attribute(name: params[:name]) unless params[:name].nil?
+  User.update_attribute(username: params[:username]) unless params[:username].nil?
+  User.update_attribute(email: params[:rmail]) unless params[:email].nil?
+  User.update_attribute(age: params[:age]) unless params[:age].nil?
+  redirect '/profile'
 end
 
 get '/sign_up' do
