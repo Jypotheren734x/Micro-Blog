@@ -19,7 +19,7 @@ get '/new_post' do
 end
 
 post '/new_post' do
-  Post.new(title: params[:title], content: params[:say], user_id: session[:user].id)
+  Post.new(title: params[:title], content: params[:content], user_id: session[:user].id)
   redirect '/profile'
 end
 
