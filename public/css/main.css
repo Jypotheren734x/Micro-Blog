@@ -120,13 +120,10 @@ textarea {
     padding-right: 30px;
 }
 
-.post-link {
-
-}
-
 .index-profile-image {
     margin: 5px;
     float: left;
+    display: block;
 }
 
 .containment-div {
@@ -178,6 +175,24 @@ textarea {
 
 .panel > .list-group .list-group-item:first-child {
     /*border-top: 1px solid rgb(204, 204, 204);*/
+}
+
+.index-img-clear{
+    clear: left;
+    font-size: .65em;
+    text-align: left;
+}
+/* All posts page */
+#all-title-column{
+    background: black;
+    color: darkorange;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#all-title-column a{
+    color: honeydew;
+    text-decoration: none;
 }
 
 @media (max-width: 767px) {
