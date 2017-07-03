@@ -7,7 +7,6 @@ class CreateUserTable < ActiveRecord::Migration
       t.string :name
       t.integer :age
       t.integer :rating
-      t.integer :favorite_games
       t.integer :number_of_posts
       t.integer :visibility
       t.datetime :date_joined

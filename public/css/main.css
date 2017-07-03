@@ -94,13 +94,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media (min-width: 768px) {
+@media(min-width: 768px) {
     .field-label-responsive {
         padding-top: .5rem;
         text-align: right;
     }
 }
-
 /* Index CSS */
 
 #index-title-column {
@@ -108,37 +107,65 @@ textarea {
     text-align: center;
     padding-bottom: 30px;
 }
-
 .nested-div-containing-posts {
     display: flex;
     justify-content: center;
     background: rgba(121, 133, 133, 0.56);
     margin: 10px 10px;
-}
-
-.index-posts {
-    background: white;
-    width: 75%;
+    border-radius: 3px;
+    border: 2px solid black;
     height: 100px;
+    padding-right: 30px;
 }
-
-.nested-posts {
-    display: flex;
-    width: 100%;
-}
-
 .post-link {
-    background: black;
-}
 
+}
 .index-profile-image {
     margin: 5px;
     float: left;
 }
-
 .containment-div {
     width: 500px;
+    margin-right: 40px;
 }
+
+/* Game page */
+#games-img-container {
+    width: 960px;
+}
+/* Popular page */
+#popular-title-column{
+    background: black;
+    color: darkorange;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#popular-title-column a{
+    color: honeydew;
+    text-decoration: none;
+}
+
+.color-offset{
+    background: gray;
+}
+
+/* Trending */
+#trending-title-column{
+    background: silver;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -244,9 +271,8 @@ textarea {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important;
-        /* Black prints faster:
-                                          http://www.sanbeiji.com/archives/953 */
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -268,6 +294,7 @@ textarea {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
+
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -283,6 +310,7 @@ textarea {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
+
     thead {
         display: table-header-group;
     }
