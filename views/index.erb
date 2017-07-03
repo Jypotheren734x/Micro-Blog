@@ -4,24 +4,18 @@
     <div id='index-title-column' class="col-12">
       <h1>Recent Posts</h1>
       <div class="row">
-        <% posts = Post.find(:all, :order => "id", :limit => 10).reverse
+        <% posts = Post.order(date_created: :asc).last(10)
             posts.each do |post| %>
         <div class="col-10 offset-1 nested-div-containing-posts">
           <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
           <div class="containment-div">
             <div class="index-title-div">
-              <h3 class="index-post-title">
-                <% if post.title.nil? %>
-                    No posts!
-          <% else %>
-                <%= post.title %>
-              </h3>
+              <h3 class="index-post-title"><%= post.title %></h3>
             </div>
             <div class="index-post-content">
               <a class="post-link" href=""> <%= post.content %> </a>
             </div>
           </div>
-        <% end %>
         </div>
        <% end %>
       </div>
