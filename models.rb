@@ -17,7 +17,7 @@ class Post < ActiveRecord::Base
   belongs_to :user
 
   def self.last_ten(column)
-  	self.order("#{column}": :desc).last(10)
+    self.order("#{column}": :desc).last(10)
   end
 end
 

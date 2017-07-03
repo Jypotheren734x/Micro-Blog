@@ -19,7 +19,7 @@ get '/new_post' do
 end
 
 post '/new_post' do
-  post = Post.
+  post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id, date_created: Time.current)
   User.find_by(id: session[:user].id).update(number_of_posts: session[:user].number_of_posts + 1)
   session[:user] = User.find_by(id: session[:user].id)
   if post.save
@@ -88,6 +88,13 @@ get '/sign_out' do
 end
 
 get '/search_results' do
-  @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all unless params[:querry].nil?
+  if !params[:querry].nil?
+    @users = User.where('username LIKE ?', '%' + params[:querry] +'%').all
+    @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all
+    @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all
+    @users.each do |user|
+      @results += Post.where(user_id: user.id)
+    end
+  end
   erb :search_results
 end

@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-07-03.11:07:25.873</IntrospectionTimestamp>
-      <IntrospectionStateNumber>29618337</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-07-03.14:45:51.789</IntrospectionTimestamp>
+      <IntrospectionStateNumber>29667114</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -139,20 +139,20 @@
       <DataType>varchar|0</DataType>
       <StateNumber>29618014</StateNumber>
     </column>
-    <column id="30" parent="15" name="type">
+    <column id="30" parent="15" name="players">
       <Position>4</Position>
       <DataType>varchar|0</DataType>
-      <StateNumber>29618014</StateNumber>
+      <StateNumber>29666991</StateNumber>
     </column>
     <column id="31" parent="15" name="violence_rating">
       <Position>5</Position>
       <DataType>varchar|0</DataType>
       <StateNumber>29618014</StateNumber>
     </column>
-    <column id="32" parent="15" name="descripiton">
+    <column id="32" parent="15" name="description">
       <Position>6</Position>
       <DataType>varchar|0</DataType>
-      <StateNumber>29618014</StateNumber>
+      <StateNumber>29667114</StateNumber>
     </column>
     <column id="33" parent="15" name="rating">
       <Position>7</Position>
