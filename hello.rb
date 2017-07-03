@@ -7,11 +7,19 @@ enable :sessions
 ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://egxuymljkrmkde:2ae62d8dd5520103286b31a5955ef12f576f235adf4588091dd72a7f04b34905@ec2-107-22-162-158.compute-1.amazonaws.com:5432/dffe37v92mjfrd')
 
 get '/' do
+  @posts = Post.last_ten("date_created")
   erb :index
 end
 
 get '/games' do
+  @games = Game.order(title: :asc)
   erb :games
+end
+
+post '/games' do
+  create = Game.new(title: params[:title], genre: params[:genre], players: params[:players], violence_rating: params[:violence_rating], description: params[:description], rating: params[:rated], img: params[:img])
+  create.save
+  redirect '/games'
 end
 
 get '/new_post' do
