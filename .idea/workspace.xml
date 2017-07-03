@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="Updates">
+    <list default="true" id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
     </list>
@@ -136,8 +136,8 @@
       <file leaf-file-name="index.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="156">
+              <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -596,7 +596,7 @@
       <workItem from="1499033669280" duration="183000" />
       <workItem from="1499034012229" duration="1201000" />
       <workItem from="1499035223957" duration="18218000" />
-      <workItem from="1499095877823" duration="8041000" />
+      <workItem from="1499095877823" duration="8269000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1499035085036</created>
@@ -892,15 +892,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499103338936</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Updates">
+      <created>1499103921786</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1499103921786</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27643000" />
+    <option name="totallyTimeSpent" value="27871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="3840" height="2130" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08609795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -908,7 +914,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1276988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23245396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23245396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1212,8 +1218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="156">
+          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
           <folding />
         </state>
       </provider>
