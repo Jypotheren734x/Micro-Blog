@@ -84,3 +84,7 @@ get '/sign_out' do
   session[:user] = nil
   redirect '/'
 end
+
+get '/all' do
+  erb :all
+end

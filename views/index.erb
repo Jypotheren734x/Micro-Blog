@@ -7,7 +7,11 @@
         <% posts = Post.order(date_created: :asc).last(10).reverse
             posts.each do |post| %>
         <div class="col-10 offset-1 nested-div-containing-posts">
-          <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
+          <div>
+            <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
+            <h6 class='index-img-clear'>User: <b><%= User.find(post.user_id).username %></b></h6>
+            <h6 class='index-img-clear'>Posted on: <%= post.date_created %></h6>
+          </div>
           <div class="containment-div">
             <div class="index-title-div">
               <h3 class="index-post-title"><%= post.title %></h3>
