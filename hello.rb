@@ -69,7 +69,9 @@ post '/sign_up' do
 end
 
 get '/sign_in' do
-  erb :index
+  user = User.find_by(username: params[:username])
+  session[:user] = user if user && user.authenticate(params[:password])
+  redirect '/'
 end
 
 post '/sign_in' do
