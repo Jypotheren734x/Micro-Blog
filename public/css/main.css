@@ -114,15 +114,12 @@ textarea {
     margin: 10px 10px;
     border-radius: 3px;
     border: 2px solid black;
-    height: 100px;
     padding-right: 30px;
-}
-.post-link {
-
 }
 .index-profile-image {
     margin: 5px;
     float: left;
+    display: block;
 }
 .containment-div {
     width: 500px;
@@ -157,9 +154,23 @@ textarea {
     padding-bottom: 30px;
 }
 
+.index-img-clear{
+    clear: left;
+    font-size: .65em;
+    text-align: left;
+}
+/* All posts page */
+#all-title-column{
+    background: black;
+    color: darkorange;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
-
-
+#all-title-column a{
+    color: honeydew;
+    text-decoration: none;
+}
 
 
 
