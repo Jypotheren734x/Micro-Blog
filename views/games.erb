@@ -2,12 +2,19 @@
 <div id="games-img-container" class="container">
   <div class="row">
     <div class="card-deck">
+    	<% games = Game.order(date_created: :asc) 
+    		games.each do |game| %>
       <div class="card">
         <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/1/11/Kotorbox.jpg" alt="swkotor">
         <div class="card-block">
+
+          <h4 class="card-title"> <%= game.title %> </h4>
+          <p class="card-text"> <%= game.description %> </p>
+
           <h4 class="card-title">Star Wars Knights of the Old Republic</h4>
           <p class="card-text">A game of memory loss and betrayl, SWKOTR is a fantastic example of how a story should be
             told.</p>
+
           <a href="/games">Add to favorites</a>
         </div>
       </div>
@@ -90,3 +97,7 @@
     </div>
   </div>
 </div>
+
+<form action="/games" method="POST">
+	
+</form>
