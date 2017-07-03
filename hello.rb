@@ -19,7 +19,7 @@ get '/new_post' do
 end
 
 post '/new_post' do
-  post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id)
+  post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id, date_created: Time.current)
   if post.save
     redirect '/profile'
   else
