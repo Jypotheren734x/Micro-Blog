@@ -1,38 +1,38 @@
 <!-- Games -->
 <div id="games-img-container" class="container">
   <div class="row">
-		<form action="/games" method="POST">
-		  <div class="card-deck">
-			  <div class="card">
-			    <img id='game-image' class="card-img-top" src='http://webpub.jacieyang.com/resource/p2t/horizontal/ex.gif' alt="image">
-			  	<input id="insert-img" type="text" name='img' placeholder="Insert img url">
-			    <div class="card-block">
-			      <h4 class="card-title"><input type="text" name="title" placeholder="Game title"></h4>
-			      <p class="card-text"> 
-								<input type="text" name="genre" placeholder="Game genre">
-								<input type="text" name='players' placeholder="Number of players">
-								<input type="text" name='violence_rating' placeholder="Rated?">
-								<input type="text" name="description" placeholder="Description of game">
-								<input type="rating" name='rated' placeholder="Rated /5">
-								<input type="submit" value="Add game">
-			      </p>
-		    	</div>
-		  	</div>
-		</form>
-			<% @games.each do |game| %>
-      <div class="card">
-        <img class="card-img-top" src='<%= game.img %>' alt="image">
-        <div class="card-block">
-          <h4 class="card-title"> <%= game.title %> </h4>
-          <p class="card-text"> <%= game.description %> </p>
-          <h6> <%= game.genre %> </h6>
-          <h6> <%= game.rating %>/5 </h6>
-          <h6>Number of Players: <%= game.players %></h6>
-          <h6>Rated: <%= game.violence_rating %></h6>
+    <form action="/games" method="POST">
+      <div class="card-deck">
+        <div class="card">
+          <img id='game-image' class="card-img-top" src='http://webpub.jacieyang.com/resource/p2t/horizontal/ex.gif' alt="image">
+          <input id="insert-img" type="text" name='img' placeholder="Insert img url">
+          <div class="card-block">
+            <h4 class="card-title"><input type="text" name="title" placeholder="Game title"></h4>
+            <p class="card-text">
+              <input type="text" name="genre" placeholder="Game genre">
+              <input type="text" name='players' placeholder="Number of players">
+              <input type="text" name='violence_rating' placeholder="Rated?">
+              <input type="text" name="description" placeholder="Description of game">
+              <input type="rating" name='rated' placeholder="Rated /5">
+              <input type="submit" value="Add game">
+            </p>
+          </div>
         </div>
-      </div>
-	  <% end %>  
-		</div>
+    </form>
+    <% @games.each do |game| %>
+        <div class="card">
+          <img class="card-img-top" src='<%= game.img %>' alt="image">
+          <div class="card-block">
+            <h4 class="card-title"> <%= game.title %> </h4>
+            <p class="card-text"> <%= game.description %> </p>
+            <h6> <%= game.genre %> </h6>
+            <h6> <%= game.rating %>/5 </h6>
+            <h6>Number of Players: <%= game.players %></h6>
+            <h6>Rated: <%= game.violence_rating %></h6>
+          </div>
+        </div>
+    <% end %>
   </div>
+</div>
 </div>
 <!-- oe er -->

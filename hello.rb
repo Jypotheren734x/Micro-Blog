@@ -106,3 +106,7 @@ get '/search_results' do
   end
   erb :search_results
 end
+
+get '/all' do
+  erb :all
+end

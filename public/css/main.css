@@ -145,7 +145,7 @@ textarea {
 }
 
 .card {
-    border: none!important;
+    border: none !important;
 }
 
 /* Popular page */
@@ -176,20 +176,21 @@ textarea {
     /*border-top: 1px solid rgb(204, 204, 204);*/
 }
 
-.index-img-clear{
+.index-img-clear {
     clear: left;
     font-size: .65em;
     text-align: left;
 }
+
 /* All posts page */
-#all-title-column{
+#all-title-column {
     background: black;
     color: darkorange;
     text-align: center;
     padding-bottom: 30px;
 }
 
-#all-title-column a{
+#all-title-column a {
     color: honeydew;
     text-decoration: none;
 }
