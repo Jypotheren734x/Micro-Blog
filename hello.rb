@@ -40,10 +40,11 @@ get '/profile' do
 end
 
 post '/profile' do
-  User.update_attribute(name: params[:name]) unless params[:name].nil?
-  User.update_attribute(username: params[:username]) unless params[:username].nil?
-  User.update_attribute(email: params[:rmail]) unless params[:email].nil?
-  User.update_attribute(age: params[:age]) unless params[:age].nil?
+  User.find_by(id: session[:user].id).update(name: params[:name]) unless params[:name] == ""
+  User.find_by(id: session[:user].id).update(username: params[:username]) unless params[:username] == ""
+  User.find_by(id: session[:user].id).update(email: params[:email]) unless params[:email] == ""
+  User.find_by(id: session[:user].id).update(age: params[:age]) unless params[:age] == ""
+  session[:user] = User.find_by(id: session[:user].id)
   redirect '/profile'
 end
 
