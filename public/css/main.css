@@ -139,6 +139,19 @@ textarea {
     width: 960px;
 }
 
+#games-img-container img {
+    width: 250px;
+    height: 300px;
+}
+
+.card-img-top {
+    border: none;
+}
+
+.card {
+    border: none!important;
+}
+
 /* Popular page */
 #popular-title-column {
     background: black;
