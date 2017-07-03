@@ -27,9 +27,9 @@
     </div>
   </div>
   <div id="user-posts" class="col-8">
+    <% posts = Post.where(user_id: session[:user].id)
+       posts.each do |post| %>
     <div class="col-10 offset-1 nested-div-containing-posts">
-      <% posts = Post.where(user_id: session[:user].id)
-         posts.each do |post| %>
       <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
       <div class="containment-div">
         <div class="index-title-div">
