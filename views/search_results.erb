@@ -8,18 +8,16 @@
           <% @users.each do |user| %>
               <li class="list-group-item">
                 <div class="col-xs-12 col-sm-3">
-                  <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-fluid rounded-circle"/>
+                  <img src="http://api.randomuser.me/portraits/men/1.jpg" alt="Scott Stevens" class="img-fluid rounded-circle"/>
                 </div>
                 <div class="col-xs-12 col-sm-9">
-                  <span class="name"><%= user.name %></span><br/>
-                  <span class="fa fa-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
-                  <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
-                  <span class="fa fa-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
-                  <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br/></span>
-                  <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+                  <span class="name"><a href="/user_profile/<%= user.id %>"><%= user.name %></a></span><br/>
+                  <span class="fa fa-star text-muted c-info" data-toggle="tooltip"></span>
+                  <span class="visible-xs"> <span class="text-muted">Rating: <%= user.rating %></span><br/></span>
+                  <span class="fa fa-comment text-muted c-info" data-toggle="tooltip"></span>
+                  <span class="visible-xs"> <span class="text-muted">Posts: <%= user.rating %></span><br/></span>
+                  <span class="fa fa-envelope text-muted c-info" data-toggle="tooltip"></span>
                   <span class="visible-xs"> <span class="text-muted"><%= user.email %></span><br/></span>
-                  <a href="#" data-toggle="tooltip" data-placement="top" title="Add Friend"><i class="fa fa-plus"></i>Add
-                    Friend</a>
                 </div>
                 <div class="clearfix"></div>
               </li>

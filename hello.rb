@@ -103,7 +103,7 @@ get '/search_results' do
     @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all
     @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all
     @users.each do |user|
-      @results += Post.where(user_id: user.id)
+      @results += user.posts
     end
   end
   erb :search_results
@@ -115,4 +115,9 @@ end
 
 get '/post' do
   @post = Post.find(params[:id])
+end
+
+get '/user_profile/:id' do
+  @user = User.find(params[:id].to_i)
+  @posts = @user.posts
 end
