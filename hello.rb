@@ -18,6 +18,11 @@ get '/new_post' do
   erb :new_post
 end
 
+post '/new_post' do
+  Post.new(title: params[:title], content: params[:say], user_id: session[:user].id)
+  redirect '/profile'
+end
+
 get '/popular' do
   erb :popular
 end
