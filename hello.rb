@@ -88,8 +88,13 @@ get '/sign_out' do
 end
 
 get '/search_results' do
-  @users = User.where('username LIKE ?', '%' + params[:querry] +'%').all unless params[:querry].nil?
-  @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all unless params[:querry].nil?
-  @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all unless params[:querry].nil?
+  if !params[:querry].nil?
+    @users = User.where('username LIKE ?', '%' + params[:querry] +'%').all
+    @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all
+    @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all
+    @users.each do |user|
+      @results += Post.where(user_id: user.id)
+    end
+  end
   erb :search_results
 end
