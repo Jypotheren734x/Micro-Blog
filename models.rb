@@ -21,12 +21,12 @@ class Post < ActiveRecord::Base
   end
 end
 
-class User_friend < ActiveRecord::Base
+class UserFriend < ActiveRecord::Base
   belongs_to :user
   belongs_to :friend, :class_name => 'User'
 end
 
-class User_game < ActiveRecord::Base
+class UserGame < ActiveRecord::Base
   belongs_to :user
   belongs_to :game
 end

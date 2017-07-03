@@ -46,6 +46,7 @@ get '/trending' do
 end
 
 get '/profile' do
+  @user_friends = session[:user].user_friends
   erb :profile
 end
 
@@ -55,6 +56,7 @@ post '/profile' do
   User.find_by(id: session[:user].id).update(email: params[:email]) unless params[:email] == ""
   User.find_by(id: session[:user].id).update(age: params[:age]) unless params[:age] == ""
   session[:user] = User.find_by(id: session[:user].id)
+  @user_friends = session[:user].user_friends
   redirect '/profile'
 end
 
