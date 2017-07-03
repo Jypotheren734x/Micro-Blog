@@ -1,4 +1,4 @@
-<div id="user-info" class="col-2">
+<div id="user-info" class="col">
   <div class="card" style="width: 25rem;">
     <img class="card-img-top" src="img/tile.png" alt="Card image cap">
     <div class="card-block">
@@ -25,7 +25,7 @@
     </ul>
   </div>
 </div>
-<div id="user-posts" class="col-7">
+<div id="user-posts" class="col">
   <% posts = Post.where(user_id: session[:user].id)
      posts.each do |post| %>
       <div class="col-7 offset-1 nested-div-containing-posts">
@@ -41,7 +41,7 @@
       </div>
   <% end %>
 </div>
-<div id="user-friends" class="col-2">
+<div id="user-friends" class="col">
   <div class="container">
       <div class="top">
         <h2>Friend's List</h2>
