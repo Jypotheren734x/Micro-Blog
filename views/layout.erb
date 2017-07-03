@@ -20,6 +20,7 @@
   crossorigin="anonymous"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/vendor/jquery.searchable.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -48,12 +49,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/trending">Trending</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/all">All Posts</a>
-        </li>
-        <form class="form-inline">
+        <form class="form-inline" action="/search_results" method="get">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon1" name="querry">
             <i id="basic-addon1" class="input-group-addon fa fa-search"></i>
           </div>
         </form>
