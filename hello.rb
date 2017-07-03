@@ -110,3 +110,7 @@ end
 get '/all' do
   erb :all
 end
+
+get '/post' do
+  @post = Post.find(params[:id])
+end
