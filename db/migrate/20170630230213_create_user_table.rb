@@ -1,4 +1,4 @@
-class CreateUserTable < ActiveRecord::Migration[5.1]
+class CreateUserTable < ActiveRecord::Migration
   def change
     create_table(:users) do |t|
       t.string :username

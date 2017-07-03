@@ -1,13 +1,12 @@
-
-$.validator.setDefaults( {
+$.validator.setDefaults({
     submitHandler: function () {
         $('#sign_up_form').submit();
-        alert( "submitted!" );
+        alert("submitted!");
     }
-} );
+});
 
-$( document ).ready( function () {
-    $( "#sign_up_form" ).validate( {
+$(document).ready(function () {
+    $("#sign_up_form").validate({
         rules: {
             name: {required: true},
             username: {
@@ -48,37 +47,37 @@ $( document ).ready( function () {
             email: "Please enter a valid email address"
         },
         errorElement: "em",
-        errorPlacement: function ( error, element ) {
+        errorPlacement: function (error, element) {
             // Add the `help-block` class to the error element
-            error.addClass( "help-block" );
+            error.addClass("help-block");
 
             // Add `has-feedback` class to the parent div.form-group
             // in order to add icons to inputs
-            element.parents( ".form-group" ).addClass( "has-feedback" );
+            element.parents(".form-group").addClass("has-feedback");
 
-            if ( element.prop( "type" ) === "checkbox" ) {
-                error.insertAfter( element.parent( "label" ) );
+            if (element.prop("type") === "checkbox") {
+                error.insertAfter(element.parent("label"));
             } else {
-                error.insertAfter( element );
+                error.insertAfter(element);
             }
 
             element.addClass("form-control-danger");
         },
-        success: function ( label, element ) {
+        success: function (label, element) {
 
             // Add the span element, if doesn't exists, and apply the icon classes to it.
-            if ( !$( element ).next( "span" )[ 0 ] ) {
-                $( "<span class='form-control-feedback'></span>" ).insertAfter( $( element ) );
+            if (!$(element).next("span")[0]) {
+                $("<span class='form-control-feedback'></span>").insertAfter($(element));
             }
         },
-        highlight: function ( element, errorClass, validClass ) {
-            $( element ).parents( ".input-group" ).addClass( "has-danger" ).removeClass( "has-success" );
-            $( element ).next( "span" ).addClass( "fa-remove" ).removeClass( "fa-ok" );
+        highlight: function (element, errorClass, validClass) {
+            $(element).parents(".input-group").addClass("has-danger").removeClass("has-success");
+            $(element).next("span").addClass("fa-remove").removeClass("fa-ok");
         },
-        unhighlight: function ( element, errorClass, validClass ) {
-            $( element ).parents( ".input-group" ).addClass( "has-success" ).removeClass( "has-danger" );
-            $( element ).next( "span" ).addClass( "fa-ok" ).removeClass( "fa-remove" );
+        unhighlight: function (element, errorClass, validClass) {
+            $(element).parents(".input-group").addClass("has-success").removeClass("has-danger");
+            $(element).next("span").addClass("fa-ok").removeClass("fa-remove");
         }
-    } );
-} );
+    });
+});
 	

@@ -14,6 +14,19 @@ get '/games' do
   erb :games
 end
 
+get '/new_post' do
+  erb :new_post
+end
+
+post '/new_post' do
+  post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id, date_created: Time.current)
+  if post.save
+    redirect '/profile'
+  else
+    redirect '/new_post'
+  end
+end
+
 get '/popular' do
   erb :popular
 end
@@ -24,6 +37,15 @@ end
 
 get '/profile' do
   erb :profile
+end
+
+post '/profile' do
+  User.find_by(id: session[:user].id).update(name: params[:name]) unless params[:name] == ""
+  User.find_by(id: session[:user].id).update(username: params[:username]) unless params[:username] == ""
+  User.find_by(id: session[:user].id).update(email: params[:email]) unless params[:email] == ""
+  User.find_by(id: session[:user].id).update(age: params[:age]) unless params[:age] == ""
+  session[:user] = User.find_by(id: session[:user].id)
+  redirect '/profile'
 end
 
 get '/sign_up' do

@@ -1,0 +1,32 @@
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+  <div class="row">
+    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: "textarea",
+            menu: {
+                table: {title: 'Table', items: 'inserttable tableprops deletetable | cell row column'}
+            },
+            plugins: [
+                "advlist autolink lists link image charmap preview anchor",
+                "searchreplace visualblocks code fullscreen",
+                "insertdatetime media table contextmenu paste"
+            ],
+            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+        });
+    </script>
+    <!-- the comment box -->
+    <div class="well">
+      <h4><i class="fa fa-paper-plane-o"></i> New Post:</h4>
+      <form id="post" role="form" action="/new_post" method="post">
+        <div class="form-group">
+          <label for="title">Title: </label>
+          <input type="text" placeholder="Title" id="title" name="title">
+          <textarea type="text" class="form-control" form="post" id="content" name="content"></textarea>
+        </div>
+        <button type="submit" name="say" value="" class="btn btn-primary"><i class="fa fa-reply"></i> Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -94,12 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .field-label-responsive {
         padding-top: .5rem;
         text-align: right;
     }
 }
+
 /* Index CSS */
 
 #index-title-column {
@@ -107,43 +108,37 @@ textarea {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .nested-div-containing-posts {
     display: flex;
     justify-content: center;
     background: rgba(121, 133, 133, 0.56);
     margin: 10px 10px;
 }
-.index-posts{
+
+.index-posts {
     background: white;
     width: 75%;
     height: 100px;
 }
+
 .nested-posts {
     display: flex;
     width: 100%;
 }
+
 .post-link {
     background: black;
 }
+
 .index-profile-image {
     margin: 5px;
     float: left;
 }
+
 .containment-div {
     width: 500px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -230,9 +225,9 @@ textarea {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -249,8 +244,9 @@ textarea {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -272,7 +268,6 @@ textarea {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -288,7 +283,6 @@ textarea {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
