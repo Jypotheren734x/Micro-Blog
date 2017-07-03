@@ -28,4 +28,8 @@ $(function () {
             elem.slideUp(100);
         }
     })
+
+    $('#insert-img').focusout(function () {
+        $('#game-image').attr('src', $('#insert-img').val());
+    })
 });
