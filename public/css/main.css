@@ -94,12 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .field-label-responsive {
         padding-top: .5rem;
         text-align: right;
     }
 }
+
 /* Index CSS */
 
 #index-title-column {
@@ -107,6 +108,7 @@ textarea {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .nested-div-containing-posts {
     display: flex;
     justify-content: center;
@@ -117,13 +119,16 @@ textarea {
     height: 100px;
     padding-right: 30px;
 }
+
 .post-link {
 
 }
+
 .index-profile-image {
     margin: 5px;
     float: left;
 }
+
 .containment-div {
     width: 500px;
     margin-right: 40px;
@@ -133,39 +138,114 @@ textarea {
 #games-img-container {
     width: 960px;
 }
+
 /* Popular page */
-#popular-title-column{
+#popular-title-column {
     background: black;
     color: darkorange;
     text-align: center;
     padding-bottom: 30px;
 }
 
-#popular-title-column a{
+#popular-title-column a {
     color: honeydew;
     text-decoration: none;
 }
 
-.color-offset{
+.color-offset {
     background: gray;
 }
 
 /* Trending */
-#trending-title-column{
+#trending-title-column {
     background: silver;
     text-align: center;
     padding-bottom: 30px;
 }
+.panel > .list-group .list-group-item:first-child {
+    /*border-top: 1px solid rgb(204, 204, 204);*/
+}
+@media (max-width: 767px) {
+    .visible-xs {
+        display: inline-block !important;
+    }
+    .block {
+        display: block !important;
+        width: 100%;
+        height: 1px !important;
+    }
+}
+
+.c-search > .form-control {
+    border-radius: 0px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    font-size: 1.3em;
+    padding: 12px 12px;
+    height: 44px;
+    outline: none !important;
+}
+.c-search > .form-control:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none;
+}
+.c-search > .input-group-btn .btn {
+    border-radius: 0px;
+    border-width: 0px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    height: 44px;
+}
 
 
+.c-list {
+    padding: 0px;
+    min-height: 44px;
+}
+.title {
+    display: inline-block;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+ul.c-controls {
+    list-style: none;
+    margin: 0px;
+    min-height: 44px;
+}
 
+ul.c-controls li {
+    margin-top: 8px;
+    float: left;
+}
 
+ul.c-controls li a {
+    font-size: 1.7em;
+    padding: 11px 10px 6px;
+}
+ul.c-controls li a i {
+    min-width: 24px;
+    text-align: center;
+}
 
+ul.c-controls li a:hover {
+    background-color: rgba(51, 51, 51, 0.2);
+}
 
+.c-toggle {
+    font-size: 1.7em;
+}
 
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
+}
 
-
-
+.c-info {
+    padding: 5px 10px;
+    font-size: 1.25em;
+}
 
 /* ==========================================================================
    Helper classes
@@ -271,8 +351,9 @@ textarea {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -294,7 +375,6 @@ textarea {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -310,7 +390,6 @@ textarea {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }

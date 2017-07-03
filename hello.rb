@@ -19,6 +19,8 @@ get '/new_post' do
 end
 
 post '/new_post' do
+  User.find_by(id: session[:user].id).update(number_of_posts: session[:user].number_of_posts + 1)
+  session[:user] = User.find_by(id: session[:user].id)
   post = Post.new(title: params[:title], content: params[:content], user_id: session[:user].id, date_created: Time.current)
   if post.save
     redirect '/profile'
@@ -83,4 +85,9 @@ end
 get '/sign_out' do
   session[:user] = nil
   redirect '/'
+end
+
+get '/search_results' do
+  @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all unless params[:querry].nil?
+  erb :search_results
 end
