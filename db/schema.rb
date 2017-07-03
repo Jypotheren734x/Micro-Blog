@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20170703170555) do
     t.string "violence_rating"
     t.string "description"
     t.integer "rating"
+    t.string "img"
   end
 
   create_table "posts", force: :cascade do |t|
