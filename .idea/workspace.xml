@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user_profile.erb" afterPath="$PROJECT_DIR$/views/user_profile.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,11 +94,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="user_profile.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="63" column="84" lean-forward="true" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+              <folding>
+                <marker date="1499137495317" expanded="true" signature="1987:2138" ph="..." />
+                <marker date="1499137495317" expanded="true" signature="2080:2106" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="search_results.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/search_results.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="760">
+              <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -181,10 +206,10 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/models.rb" />
         <option value="$PROJECT_DIR$/views/post.erb" />
-        <option value="$PROJECT_DIR$/views/layout.erb" />
-        <option value="$PROJECT_DIR$/views/user_profile.erb" />
         <option value="$PROJECT_DIR$/views/search_results.erb" />
         <option value="$PROJECT_DIR$/hello.rb" />
+        <option value="$PROJECT_DIR$/views/layout.erb" />
+        <option value="$PROJECT_DIR$/views/user_profile.erb" />
       </list>
     </option>
   </component>
@@ -499,14 +524,7 @@
       <workItem from="1499126986432" duration="557000" />
       <workItem from="1499127559854" duration="24000" />
       <workItem from="1499130051440" duration="138000" />
-      <workItem from="1499130454261" duration="6585000" />
-    </task>
-    <task id="LOCAL-00011" summary="Updates">
-      <created>1499037878727</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1499037878727</updated>
+      <workItem from="1499130454261" duration="7321000" />
     </task>
     <task id="LOCAL-00012" summary="Updates">
       <created>1499037997913</created>
@@ -844,11 +862,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499137042868</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Friends working">
+      <created>1499137056090</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1499137056090</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50242000" />
+    <option name="totallyTimeSpent" value="50978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="3840" height="2130" extended-state="6" />
@@ -899,7 +924,8 @@
     <MESSAGE value="Merge branch 'master' into friends&#10;&#10;# Conflicts:&#10;#&#9;hello.rb&#10;#&#9;views/post.erb" />
     <MESSAGE value="FRIENDS!!!!!!!!!!!!!!" />
     <MESSAGE value="Comments working, can't reply yet though" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments working, can't reply yet though" />
+    <MESSAGE value="Friends working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Friends working" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1238,25 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <marker date="1499136415412" expanded="true" signature="1987:2138" ph="..." />
-            <marker date="1499136415412" expanded="true" signature="2080:2106" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/post.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="932">
@@ -1273,10 +1280,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="63" column="84" lean-forward="true" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+          <folding>
+            <marker date="1499137495317" expanded="true" signature="1987:2138" ph="..." />
+            <marker date="1499137495317" expanded="true" signature="2080:2106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/search_results.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="760">
+          <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
         </state>
       </provider>

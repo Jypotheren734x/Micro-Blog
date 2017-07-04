@@ -59,21 +59,10 @@
           </div>
         </form>
         <% if !session[:user].nil? %>
-            <li class="nav-item dropdown-toggle-split navbar-toggler-right" id="username">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<%= url('img/favicon.ico') %>"></a>
-              <ul id="user-dp" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                <div class="modal-header">
-                  <span>Signed in as <span style="color: slategray"><%= session[:user].username %></span></span>
-                </div>
-                <div class="modal-body">
-                  <a href="/profile" class="nav-link">Profile</a>
-                  <a class="nav-link">Posts: <%= session[:user].number_of_posts %></a>
-                  <a href="/new_post" class="nav-link"><i class="fa fa-plus"></i>New Post</a>
-                </div>
-                <div class="modal-footer">
-                  <a href='/sign_out' class="nav-link">Logout</a>
-                </div>
-              </ul>
+            <li class="nav-item navbar-nav navbar-toggler-right">
+              <a href="/new_post" class="nav-link"><i class="fa fa-plus"></i>New Post</a>
+              <a href="/profile" class="nav-link"><%= session[:user].username %></a>
+              <a href='/sign_out' class="nav-link">Logout</a>
             </li>
         <% else %>
             <li class="nav-item dropdown navbar-toggler-right" id="login">
