@@ -18,7 +18,11 @@
                   <span class="visible-xs"> <span class="text-muted">Posts: <%= user.rating %></span><br/></span>
                   <span class="fa fa-envelope text-muted c-info" data-toggle="tooltip"></span>
                   <span class="visible-xs"> <span class="text-muted"><%= user.email %></span><br/></span>
-                  <a href="/add_friend/<%= user.id %>"><i class="fa fa-plus"></i>Add Friend</a>
+                  <% if !session[:user].nil?
+                       if user.id != session[:user].id %>
+                          <a href="/add_friend/<%= user.id %>"><i class="fa fa-plus"></i>Add Friend</a>
+                      <% end %>
+                  <% end %>
                 </div>
                 <div class="clearfix"></div>
               </li>

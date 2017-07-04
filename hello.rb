@@ -131,7 +131,15 @@ get '/user_profile/:id' do
 end
 
 get '/add_friend/:id' do
-  new_friend = UserFriend.new(user_id: session[:user].id, friend_id: params[:id])
-  new_friend.save
-  redirect "/user_profile/#{params[:id]}"
+  new_friend = UserFriend.new(user_id: session[:user].id, friend_id: params[:id]) unless !session[:user].user_friends.find_by(friend_id: params[:id]).nil?
+  if !new_friend.nil? &&new_friend.save
+    redirect "/profile/#{session[:user].id}"
+  else
+    redirect "/user_profile/#{params[:id]}"
+  end
+end
+
+get '/remove_friend/:id' do
+  UserFriend.where('user_id = ? AND friend_id = ?', session[:user].id, params[:id]).destroy_all
+  redirect "/profile/#{session[:user].id}"
 end

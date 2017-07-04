@@ -79,6 +79,10 @@
               <span class="visible-xs"> <span class="text-muted">Posts: <%= user_friend.friend.number_of_posts %></span><br/></span>
               <span class="fa fa-envelope text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
               <span class="visible-xs"> <span class="text-muted"><%= user_friend.friend.email %></span><br/></span>
+              <form id="remove_friend<%= user_friend.friend.id %>" method="get" action="/remove_friend/<%= user_friend.friend.id %>">
+                <a href="javascript:document.getElementById('remove_friend<%= user_friend.friend.id %>').submit();"><i class="fa fa-minus"></i>Remove
+                  Friend</a>
+              </form>
             </div>
             <div class="clearfix"></div>
           </li>
