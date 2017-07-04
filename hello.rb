@@ -118,6 +118,12 @@ get '/post/:id' do
   erb :post
 end
 
+post '/post/:id' do
+  comment = Comment.new(content: params[:content], user_id: session[:user].id, post_id: params[:id], date_created: Time.current)
+  comment.save
+  redirect '/post/' + params[:id]
+end
+
 get '/user_profile/:id' do
   @user = User.find(params[:id])
   @posts = @user.posts

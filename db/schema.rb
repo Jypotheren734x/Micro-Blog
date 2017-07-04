@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170703170555) do
+ActiveRecord::Schema.define(version: 20170704015247) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "comment_sub_comments", force: :cascade do |t|
+    t.integer "comment_id"
+    t.integer "sub_comments_id"
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.string "content"
+    t.integer "user_id"
+    t.integer "post_id"
+    t.datetime "date_created"
+  end
 
   create_table "games", force: :cascade do |t|
     t.string "title"
