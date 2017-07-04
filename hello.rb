@@ -113,8 +113,9 @@ get '/all' do
   erb :all
 end
 
-get '/post' do
+get '/post/:id' do
   @post = Post.find(params[:id])
+  erb :post
 end
 
 get '/user_profile/:id' do
