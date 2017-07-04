@@ -129,3 +129,9 @@ get '/user_profile/:id' do
   @posts = @user.posts
   erb :user_profile
 end
+
+get '/add_friend/:id' do
+  new_friend = UserFriend.new(user_id: session[:user].id, friend_id: params[:id])
+  new_friend.save
+  redirect "/user_profile/#{params[:id]}"
+end
