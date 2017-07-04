@@ -46,6 +46,7 @@ get '/trending' do
 end
 
 get '/profile' do
+  @user_friends = session[:user].user_friends
   erb :profile
 end
 
@@ -55,6 +56,7 @@ post '/profile' do
   User.find_by(id: session[:user].id).update(email: params[:email]) unless params[:email] == ""
   User.find_by(id: session[:user].id).update(age: params[:age]) unless params[:age] == ""
   session[:user] = User.find_by(id: session[:user].id)
+  @user_friends = session[:user].user_friends
   redirect '/profile'
 end
 
@@ -101,7 +103,7 @@ get '/search_results' do
     @results = Post.where('content LIKE ?', '%' + params[:querry] +'%').all
     @results += Post.where('title LIKE ?', '%' + params[:querry] +'%').all
     @users.each do |user|
-      @results += Post.where(user_id: user.id)
+      @results += user.posts
     end
   end
   erb :search_results
@@ -111,8 +113,33 @@ get '/all' do
   erb :all
 end
 
-get '/post' do
+get '/post/:id' do
   @post = Post.find(params[:id])
-  @user_profile = 
   erb :post
+end
+
+post '/post/:id' do
+  comment = Comment.new(content: params[:content], user_id: session[:user].id, post_id: params[:id], date_created: Time.current)
+  comment.save
+  redirect '/post/' + params[:id]
+end
+
+get '/user_profile/:id' do
+  @user = User.find(params[:id])
+  @posts = @user.posts
+  erb :user_profile
+end
+
+get '/add_friend/:id' do
+  new_friend = UserFriend.new(user_id: session[:user].id, friend_id: params[:id]) unless !session[:user].user_friends.find_by(friend_id: params[:id]).nil?
+  if !new_friend.nil? &&new_friend.save
+    redirect "/profile/#{session[:user].id}"
+  else
+    redirect "/user_profile/#{params[:id]}"
+  end
+end
+
+get '/remove_friend/:id' do
+  UserFriend.where('user_id = ? AND friend_id = ?', session[:user].id, params[:id]).destroy_all
+  redirect "/profile/#{session[:user].id}"
 end

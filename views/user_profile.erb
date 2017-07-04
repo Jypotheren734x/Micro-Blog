@@ -1,45 +1,49 @@
 <div class="row">
   <div id="user-info" class="col-3">
     <div class="card" style="width: 25rem;">
-      <img class="card-img-top" src="img/tile.png" alt="Card image cap">
+      <img class="card-img-top" src="<%= url('img/tile.png') %>" alt="Card image cap">
       <div class="card-block">
-        <h4 class="card-title"><%= session[:user].username %></h4>
+        <h4 class="card-title"><%= @user.username %></h4>
       </div>
       <form id="user-info" action="/profile" method="post">
         <ul class="list-group list-group-flush">
           <li class="input-group">
-            <span class="input-group-addon"><button class="fa fa-edit"></button></span>
-            <input type="text" id="name" name="name" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].name %>">
+            <label>Name: <%= @user.name %></label>
           </li>
           <li class="input-group">
-            <span class="input-group-addon"><button class="fa fa-edit"></button></span>
-            <input type="text" id="username" name="username" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].username %>">
+            <label>Username: <%= @user.username %></label>
           </li>
           <li class="input-group">
-            <span class="input-group-addon"><button class="fa fa-edit"></button></span>
-            <input type="text" id="email" name="email" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].email %>">
+            <label>Email: <%= @user.email %></label>
           </li>
           <li class="input-group">
-            <span class="input-group-addon"><button class="fa fa-edit"></button></span>
-            <input type="number" id="age" name="age" class="form-control" aria-label="Text input with checkbox" placeholder="<%= session[:user].age %>">
+            <label>Age: <%= @user.age %></label>
           </li>
-          <li class="list-group-item">Number of Posts: <%= session[:user].number_of_posts %>
-            Rating: <%= session[:user].rating %></li>
+          <li class="list-group-item">
+            Number of Posts: <%= @user.number_of_posts %>
+            Rating: <%= @user.rating %>
+          </li>
+          <li class="list-group-item">
+            <% if !session[:user].nil? %>
+                <% if @user.id != session[:user].id %>
+                    <a href="/add_friend/<%= @user.id %>"><i class="fa fa-plus"></i>Add Friend</a>
+                <% end %>
+            <% end %>
+          </li>
         </ul>
       </form>
     </div>
   </div>
   <div id="user-posts" class="col-6">
-    <% posts = Post.where(user_id: session[:user].id)
-       posts.each do |post| %>
+    <% @posts.each do |post| %>
         <div class="col-7 nested-div-containing-posts">
-          <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
+          <img class="index-profile-image" src="<%= url('img/tile.png') %>" alt="" width="50px" height="50px">
           <div class="containment-div">
             <div class="index-title-div">
               <h3 class="index-post-title"><%= post.title %></h3>
             </div>
             <div class="index-post-content">
-              <a class="post-link" href="/post?id=<%= post.id %>"><%= post.content %></a>
+              <a class="post-link" href="/post/<%= post.id %>"><%= post.content %></a>
             </div>
           </div>
         </div>
@@ -51,9 +55,6 @@
         <div class="card-header c-list">
           <span class="title">Friends</span>
           <ul class="pull-right c-controls">
-            <li>
-              <a href="#" data-toggle="tooltip" data-placement="top" title="Add Friend"><i class="fa fa-plus"></i></a>
-            </li>
             <li>
               <a href="#" class="hide-search" data-command="toggle-search"><i class="fa fa-search"></i></a>
             </li>
@@ -68,21 +69,23 @@
           </div>
         </div>
         <ul class="list-group" id="contact-list">
-          <li class="list-group-item">
-            <div class="col-xs-12 col-sm-3">
-              <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-fluid rounded-circle"/>
-            </div>
-            <div class="col-xs-12 col-sm-9">
-              <span class="name">Scott Stevens</span><br/>
-              <span class="fa fa-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
-              <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
-              <span class="fa fa-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
-              <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br/></span>
-              <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
-              <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br/></span>
-            </div>
-            <div class="clearfix"></div>
-          </li>
+          <% @user.user_friends.each do |user_friend| %>
+              <li class="list-group-item">
+                <div class="col-xs-12 col-sm-3">
+                  <img src="http://api.randomuser.me/portraits/men/1.jpg" alt="Scott Stevens" class="img-fluid rounded-circle"/>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                  <span class="name"><a href="/user_profile/<%= user_friend.friend.id %>"><%= user_friend.friend.name %></a></span><br/>
+                  <span class="fa fa-star text-muted c-info" data-toggle="tooltip"></span>
+                  <span class="visible-xs"> <span class="text-muted">Rating: <%= user_friend.friend.rating %></span><br/></span>
+                  <span class="fa fa-comment text-muted c-info" data-toggle="tooltip"></span>
+                  <span class="visible-xs"> <span class="text-muted">Posts: <%= user_friend.friend.number_of_posts %></span><br/></span>
+                  <span class="fa fa-envelope text-muted c-info" data-toggle="tooltip"></span>
+                  <span class="visible-xs"> <span class="text-muted"><%= user_friend.friend.email %></span><br/></span>
+                </div>
+                <div class="clearfix"></div>
+              </li>
+          <% end %>
         </ul>
       </div>
     </div>
