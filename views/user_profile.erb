@@ -1,7 +1,7 @@
 <div class="row">
   <div id="user-info" class="col-3">
     <div class="card" style="width: 25rem;">
-      <img class="card-img-top" src="img/tile.png" alt="Card image cap">
+      <img class="card-img-top" src="<%= url('img/tile.png') %>" alt="Card image cap">
       <div class="card-block">
         <h4 class="card-title"><%= @user.username %></h4>
       </div>
@@ -28,7 +28,7 @@
   <div id="user-posts" class="col-6">
     <% @posts.each do |post| %>
         <div class="col-7 nested-div-containing-posts">
-          <img class="index-profile-image" src="img/tile.png" alt="" width="50px" height="50px">
+          <img class="index-profile-image" src="<%= url('img/tile.png') %>" alt="" width="50px" height="50px">
           <div class="containment-div">
             <div class="index-title-div">
               <h3 class="index-post-title"><%= post.title %></h3>
@@ -69,7 +69,7 @@
                   <img src="http://api.randomuser.me/portraits/men/1.jpg" alt="Scott Stevens" class="img-fluid rounded-circle"/>
                 </div>
                 <div class="col-xs-12 col-sm-9">
-                  <span class="name"><a href="/user_profile?id=<%= user_friend.friend.id %>"><%= user_friend.friend.name %></a></span><br/>
+                  <span class="name"><a href="/user_profile/<%= user_friend.friend.id %>"><%= user_friend.friend.name %></a></span><br/>
                   <span class="fa fa-star text-muted c-info" data-toggle="tooltip"></span>
                   <span class="visible-xs"> <span class="text-muted">Rating: <%= user_friend.friend.rating %></span><br/></span>
                   <span class="fa fa-comment text-muted c-info" data-toggle="tooltip"></span>

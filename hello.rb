@@ -118,6 +118,7 @@ get '/post' do
 end
 
 get '/user_profile/:id' do
-  @user = User.find(params[:id].to_i)
+  @user = User.find(params[:id])
   @posts = @user.posts
+  erb :user_profile
 end
