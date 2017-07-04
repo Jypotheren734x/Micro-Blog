@@ -113,4 +113,6 @@ end
 
 get '/post' do
   @post = Post.find(params[:id])
+  @user_profile = 
+  erb :post
 end
