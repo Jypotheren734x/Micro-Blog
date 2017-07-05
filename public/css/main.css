@@ -165,6 +165,10 @@ textarea {
     background: gray;
 }
 
+#insert-img {
+    width: 250px;
+}
+
 /* Trending */
 #trending-title-column {
     background: silver;
@@ -286,6 +290,15 @@ ul.c-controls li a:hover {
 .c-info {
     padding: 5px 10px;
     font-size: 1.25em;
+}
+
+#all-title-column {
+    background: rgba(83, 23, 155, 0.4);
+    color: black;
+}
+
+#all-title-column .nested-div-containing-posts {
+    background: rgba(123, 63, 207, 1);
 }
 
 /* ==========================================================================
