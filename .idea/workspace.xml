@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Micro-Blog.iml" afterPath="$PROJECT_DIR$/.idea/Micro-Blog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.rb" afterPath="$PROJECT_DIR$/hello.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile.erb" afterPath="$PROJECT_DIR$/views/profile.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/search_results.erb" afterPath="$PROJECT_DIR$/views/search_results.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user_profile.erb" afterPath="$PROJECT_DIR$/views/user_profile.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/all.erb" afterPath="$PROJECT_DIR$/views/all.erb" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Micro_Blog@hello.coverage" NAME="hello Coverage Results" MODIFIED="1499140128083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Micro-Blog" />
+    <SUITE FILE_PATH="coverage/Micro_Blog@hello.coverage" NAME="hello Coverage Results" MODIFIED="1499122639984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Micro-Blog" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -78,20 +77,21 @@
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FileColors">
-    <fileColor scope="Non-Project Files (Material Default)" color="415967" />
-    <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
-    <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
-    <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hello.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello.rb">
+      <file leaf-file-name="search_results.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/search_results.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="1092">
+              <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+              <folding>
+                <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
+                <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
+                <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
+                <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
+                <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
+                <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,51 +99,121 @@
       <file leaf-file-name="profile.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/profile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1010">
-              <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="57" column="76" lean-forward="true" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+            <state relative-caret-position="1092">
+              <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
               <folding>
-                <marker date="1499137495317" expanded="true" signature="1987:2138" ph="..." />
-                <marker date="1499137495317" expanded="true" signature="2080:2106" ph="..." />
+                <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
+                <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
+                <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
+                <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_results.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/search_results.erb">
+      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="494">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <marker date="1499269185786" expanded="true" signature="276:1091" ph="do ... end" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popular.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/popular.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <marker date="1499269185799" expanded="true" signature="273:1103" ph="do ... end" />
+                <marker date="1499269185799" expanded="true" signature="984:1047" ph="..." />
+                <marker date="1499269185799" expanded="true" signature="984:1068" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/all.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/post.erb">
+      <file leaf-file-name="trending.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/trending.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="494">
+              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <marker date="1499269185831" expanded="true" signature="275:1105" ph="do ... end" />
+                <marker date="1499269185831" expanded="true" signature="986:1049" ph="..." />
+                <marker date="1499269185831" expanded="true" signature="986:1070" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models.rb">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            <state relative-caret-position="3042">
+              <caret line="117" column="30" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+              <folding>
+                <marker date="1499269185784" expanded="true" signature="2147:2234" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="5414:5590" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="5592:5639" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="5649:5682" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="5684:5829" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="5847:6003" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="6005:6162" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="6230:6344" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="6346:6414" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="6427:6454" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="6456:6910" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="6946:7003" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="7021:7041" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="7043:7344" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="7387:7456" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="7565:7624" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="7626:7905" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="7993:8265" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="8079:8184" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="8351:8396" ph="{...}" />
+                <marker date="1499269185784" expanded="true" signature="8472:8585" ph="/*...*/" />
+                <marker date="1499269185784" expanded="true" signature="8697:8770" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_profile.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1014">
+              <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+              <folding>
+                <marker date="1499269185835" expanded="true" signature="4035:4049" ph="..." />
+                <marker date="1499269185835" expanded="true" signature="4035:4062" ph="..." />
+                <marker date="1499269185835" expanded="true" signature="4035:4073" ph="..." />
+                <marker date="1499269185835" expanded="true" signature="4035:4082" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -151,67 +221,14 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Erb File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>glyphicon</find>
-      <find>_friend.friend</find>
-      <find>img/tile.png</find>
-      <find>css/</find>
-      <find>?id=</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>fa</replace>
-      <replace>&lt;%= url('img/tile.png') %&gt;</replace>
-      <replace>/</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20170630230705_create_post_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170630230859_create_user_friend_table.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/views/new_post.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170703165652_create_game_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170703165835_create_user_game_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170630230213_create_user_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170703170546_create_post_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170703170538_create_user_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170703170555_create_user_friend_table.rb" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/views/all.erb" />
-        <option value="$PROJECT_DIR$/views/games.erb" />
-        <option value="$PROJECT_DIR$/views/popular.erb" />
-        <option value="$PROJECT_DIR$/views/trending.erb" />
-        <option value="$PROJECT_DIR$/views/index.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170704012953_create_comment_comments_tabel.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170704015247_create_post_comment_table.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20170704011850_create_comments_table.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/models.rb" />
-        <option value="$PROJECT_DIR$/views/post.erb" />
-        <option value="$PROJECT_DIR$/views/layout.erb" />
-        <option value="$PROJECT_DIR$/views/search_results.erb" />
-        <option value="$PROJECT_DIR$/views/user_profile.erb" />
-        <option value="$PROJECT_DIR$/views/profile.erb" />
-        <option value="$PROJECT_DIR$/hello.rb" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -241,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,56 +284,136 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Micro-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Micro-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Micro-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Micro-Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/js/vendor" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/db" />
-    </key>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/db/schema.rb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/hello.rb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/models.rb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/all.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/games.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/index.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/layout.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/popular.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/post.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/profile.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/search_results.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/trending.erb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/user_profile.erb</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -331,26 +427,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.hello">
-    <configuration default="false" name="hello" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="Micro-Blog" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/hello.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -479,12 +556,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -494,451 +565,149 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.hello" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.hello" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="" />
-      <created>1499033667159</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1499033667159</updated>
-      <workItem from="1499033669280" duration="183000" />
-      <workItem from="1499034012229" duration="1201000" />
-      <workItem from="1499035223957" duration="18218000" />
-      <workItem from="1499095877823" duration="12733000" />
-      <workItem from="1499109053722" duration="786000" />
-      <workItem from="1499116280204" duration="9817000" />
-      <workItem from="1499126986432" duration="557000" />
-      <workItem from="1499127559854" duration="24000" />
-      <workItem from="1499130051440" duration="138000" />
-      <workItem from="1499130454261" duration="10050000" />
-    </task>
-    <task id="LOCAL-00013" summary="Updates">
-      <created>1499038362478</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1499038362478</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Updates">
-      <created>1499038910894</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1499038910894</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Updates">
-      <created>1499039031396</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1499039031396</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Updates">
-      <created>1499042953545</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1499042953545</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Updates">
-      <created>1499043097197</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043097197</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Updates">
-      <created>1499043179051</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043179051</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Updates">
-      <created>1499043354541</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043354541</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Updates">
-      <created>1499043537055</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043537055</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Updates">
-      <created>1499043726667</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043726667</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Updates">
-      <created>1499043875707</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043875707</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Updates">
-      <created>1499043933079</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1499043933079</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Updates">
-      <created>1499044074652</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044074652</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Updates">
-      <created>1499044144129</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044144129</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Updates">
-      <created>1499044226820</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044226820</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Updates">
-      <created>1499044314439</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044314439</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Updates">
-      <created>1499044576468</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044576468</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Updates">
-      <created>1499044767188</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044767188</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Updates">
-      <created>1499044852719</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1499044852719</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Updates">
-      <created>1499045053359</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1499045053359</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Updates">
-      <created>1499046167424</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1499046167424</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Updates">
-      <created>1499050529420</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1499050529420</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Updates">
-      <created>1499051849895</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1499051849895</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Updates">
-      <created>1499051992782</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1499051992782</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Updates">
-      <created>1499096699466</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1499096699466</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Updates">
-      <created>1499098562815</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1499098562815</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Updates">
-      <created>1499099364170</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1499099364170</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Updates">
-      <created>1499101276632</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1499101276632</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Updates">
-      <created>1499101696837</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1499101696837</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Updates">
-      <created>1499103107769</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1499103107769</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Updates">
-      <created>1499103338936</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1499103338936</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Updates">
-      <created>1499103921786</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1499103921786</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Updates">
-      <created>1499104150600</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1499104150600</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Functional search of posts">
-      <created>1499108285337</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1499108285337</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Functional search of posts">
-      <created>1499109058658</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1499109058658</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Functional search of posts">
-      <created>1499117696629</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1499117696629</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Functional search of posts">
-      <created>1499121130469</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1499121130469</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Fix">
-      <created>1499121213535</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1499121213535</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Fix">
-      <created>1499121366002</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1499121366002</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Fix">
-      <created>1499122488237</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1499122488237</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Fix">
-      <created>1499122645156</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1499122645156</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Friends Forever!!!!!!!!!!!!!!!">
-      <created>1499124468085</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1499124468085</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Friends Forever!!!!!!!!!!!!!!!">
-      <created>1499126000857</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1499126000857</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Merge branch 'master' into friends&#10;&#10;# Conflicts:&#10;#&#9;hello.rb&#10;#&#9;views/post.erb">
-      <created>1499127216417</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1499127216418</updated>
-    </task>
-    <task id="LOCAL-00056" summary="FRIENDS!!!!!!!!!!!!!!">
-      <created>1499127574676</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1499127574677</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Comments working, can't reply yet though">
-      <created>1499135618302</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1499135618303</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Comments working, can't reply yet though">
-      <created>1499136492773</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1499136492773</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Comments working, can't reply yet though">
-      <created>1499137042868</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1499137042868</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Friends working">
-      <created>1499137056090</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1499137056090</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Friends working">
-      <created>1499137785010</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1499137785010</updated>
-    </task>
-    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53707000" />
+    <option name="totallyTimeSpent" value="95000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="3840" height="2130" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08864119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08688784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12765393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1970803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802388" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1276988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19761075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20907195" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updates" />
-    <MESSAGE value="Functional search of posts" />
-    <MESSAGE value="Fix" />
-    <MESSAGE value="Friends Forever!!!!!!!!!!!!!!!" />
-    <MESSAGE value="Merge branch 'master' into friends&#10;&#10;# Conflicts:&#10;#&#9;hello.rb&#10;#&#9;views/post.erb" />
-    <MESSAGE value="FRIENDS!!!!!!!!!!!!!!" />
-    <MESSAGE value="Comments working, can't reply yet though" />
-    <MESSAGE value="Friends working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Friends working" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <marker date="1499269185798" expanded="true" signature="4818:4867" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5537" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5564" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5739" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5761" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5781" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5799" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5815" ph="if ... end" />
+            <marker date="1499269185798" expanded="true" signature="4818:5829" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5840" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5849" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5859" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5881" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4916:5179" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5228:5346" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5393:5507" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5617:5714" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/search_results.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
+            <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
+            <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <marker date="1499269185786" expanded="true" signature="276:1091" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2158">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding>
+            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4238">
           <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+          <folding>
+            <marker date="1499269185784" expanded="true" signature="2147:2234" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="5414:5590" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5592:5639" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5649:5682" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="5684:5829" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5847:6003" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6005:6162" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6230:6344" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6346:6414" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6427:6454" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6456:6910" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6946:7003" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7021:7041" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7043:7344" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="7387:7456" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7565:7624" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7626:7905" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="7993:8265" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="8079:8184" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="8351:8396" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="8472:8585" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="8697:8770" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +715,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <marker date="1499269185798" expanded="true" signature="4818:4867" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5537" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5564" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5739" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5761" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5781" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5799" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5815" ph="if ... end" />
+            <marker date="1499269185798" expanded="true" signature="4818:5829" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5840" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5849" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5859" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5881" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4916:5179" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5228:5346" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5393:5507" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5617:5714" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -976,6 +764,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,6 +785,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,6 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,9 +845,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.user_friends">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/games.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170703165835_create_user_game_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170703165652_create_game_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/20170630230705_create_post_table.rb" />
     <entry file="file://$PROJECT_DIR$/db/20170630230859_create_user_friend_table.rb" />
     <entry file="file://$PROJECT_DIR$/db/20170630230213_create_user_table.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170703170538_create_user_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20170703170546_create_post_table.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1054,10 +895,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170703170555_create_user_friend_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/new_post.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/vendor/jquery.searchable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/post.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1073,259 +963,182 @@
         <state />
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.games">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <marker date="1499269185798" expanded="true" signature="4818:4867" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5537" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5564" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5739" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5761" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5781" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5799" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5815" ph="if ... end" />
+            <marker date="1499269185798" expanded="true" signature="4818:5829" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5840" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5849" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5859" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4818:5881" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="4916:5179" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5228:5346" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5393:5507" ph="..." />
+            <marker date="1499269185798" expanded="true" signature="5617:5714" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.posts">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="198" column="12" lean-forward="true" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/all.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/games.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/popular.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/trending.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/new_post.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="3042">
+          <caret line="117" column="30" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+          <folding>
+            <marker date="1499269185784" expanded="true" signature="2147:2234" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="5414:5590" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5592:5639" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5649:5682" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="5684:5829" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="5847:6003" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6005:6162" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6230:6344" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6346:6414" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6427:6454" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="6456:6910" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="6946:7003" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7021:7041" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7043:7344" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="7387:7456" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7565:7624" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="7626:7905" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="7993:8265" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="8079:8184" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="8351:8396" ph="{...}" />
+            <marker date="1499269185784" expanded="true" signature="8472:8585" ph="/*...*/" />
+            <marker date="1499269185784" expanded="true" signature="8697:8770" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <marker date="1499269185786" expanded="true" signature="276:1091" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/sign_up.erb">
+    <entry file="file://$PROJECT_DIR$/views/popular.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <marker date="1499269185799" expanded="true" signature="273:1103" ph="do ... end" />
+            <marker date="1499269185799" expanded="true" signature="984:1047" ph="..." />
+            <marker date="1499269185799" expanded="true" signature="984:1068" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170703170538_create_user_table.rb">
+    <entry file="file://$PROJECT_DIR$/views/trending.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170703170555_create_user_friend_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170703165835_create_user_game_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170703165652_create_game_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comment_sub_comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170704015247_create_post_comment_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.games">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170704012953_create_comment_comments_tabel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170704011850_create_comments_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.posts">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/post.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="28" selection-end-column="94" />
-          <folding />
+        <state relative-caret-position="494">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <marker date="1499269185831" expanded="true" signature="275:1105" ph="do ... end" />
+            <marker date="1499269185831" expanded="true" signature="986:1049" ph="..." />
+            <marker date="1499269185831" expanded="true" signature="986:1070" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/search_results.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.user_friends">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1092">
+          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding>
+            <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
+            <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
+            <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
+            <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="1092">
+          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+          <folding>
+            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
+            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="57" column="76" lean-forward="true" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+        <state relative-caret-position="1014">
+          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
           <folding>
-            <marker date="1499137495317" expanded="true" signature="1987:2138" ph="..." />
-            <marker date="1499137495317" expanded="true" signature="2080:2106" ph="..." />
+            <marker date="1499269185835" expanded="true" signature="4035:4049" ph="..." />
+            <marker date="1499269185835" expanded="true" signature="4035:4062" ph="..." />
+            <marker date="1499269185835" expanded="true" signature="4035:4073" ph="..." />
+            <marker date="1499269185835" expanded="true" signature="4035:4082" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+        <state relative-caret-position="815">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6682">
+          <caret line="139" column="170" lean-forward="true" selection-start-line="139" selection-start-column="170" selection-end-line="149" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/all.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding />
         </state>
       </provider>
