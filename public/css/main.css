@@ -107,6 +107,12 @@ textarea {
     background: rgb(31, 223, 223);
     text-align: center;
     padding-bottom: 30px;
+    color: black;
+}
+
+#index-title-column a {
+    text-decoration: none;
+    color: rgba(0, 114, 143, 1);
 }
 
 .nested-div-containing-posts {
@@ -165,11 +171,20 @@ textarea {
     background: gray;
 }
 
+#insert-img {
+    width: 250px;
+}
+
 /* Trending */
 #trending-title-column {
     background: silver;
     text-align: center;
     padding-bottom: 30px;
+}
+
+#trending-title-column a {
+    text-decoration: none;
+    color: black;
 }
 
 .panel > .list-group .list-group-item:first-child {
@@ -183,17 +198,27 @@ textarea {
 }
 
 /* All posts page */
+
+#all-title-column a {
+    color: rgba(133, 191, 224, 1);
+    text-decoration: none;
+}
+
+#all-title-column p {
+    color: rgba(133, 191, 224, 1);
+}
+
 #all-title-column {
-    background: black;
-    color: darkorange;
+    background: rgba(83, 23, 155, 0.4);
+    color: black;
     text-align: center;
     padding-bottom: 30px;
 }
 
-#all-title-column a {
-    color: honeydew;
-    text-decoration: none;
+#all-title-column .nested-div-containing-posts {
+    background: rgba(123, 63, 207, 1);
 }
+
 
 /* Post page */
 .pull-left {
@@ -287,6 +312,8 @@ ul.c-controls li a:hover {
     padding: 5px 10px;
     font-size: 1.25em;
 }
+
+
 
 /* ==========================================================================
    Helper classes
