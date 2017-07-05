@@ -119,8 +119,16 @@ get '/post/:id' do
 end
 
 post '/post/:id' do
-  comment = Comment.new(content: params[:content], user_id: session[:user].id, post_id: params[:id], date_created: Time.current)
+  comment = Comment.new(content: params[:content], user_id: session[:user].id, post_id: params[:id], date_created: Time.current) unless params[:content].nil?
   comment.save
+  redirect '/post/' + params[:id]
+end
+
+post '/post/:id/:comment_id' do
+  comment = Comment.new(content: params[:sub_content], user_id: session[:user].id, post_id: nil, date_created: Time.current) unless params[:sub_content].nil?
+  comment.save
+  sub_comment = CommentSubComment.new(comment_id: params[:comment_id], sub_comments_id: comment.id)
+  sub_comment.save
   redirect '/post/' + params[:id]
 end
 

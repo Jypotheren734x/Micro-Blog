@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cdf2eff-91b8-4132-b2fa-a9455de38824" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/_metadata_/metadata.values.at" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Micro-Blog.iml" afterPath="$PROJECT_DIR$/.idea/Micro-Blog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/all.erb" afterPath="$PROJECT_DIR$/views/all.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.rb" afterPath="$PROJECT_DIR$/hello.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/post.erb" afterPath="$PROJECT_DIR$/views/post.erb" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Micro_Blog@hello.coverage" NAME="hello Coverage Results" MODIFIED="1499122639984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Micro-Blog" />
+    <SUITE FILE_PATH="coverage/Micro_Blog@hello.coverage" NAME="hello Coverage Results" MODIFIED="1499270934257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Micro-Blog" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -82,16 +82,9 @@
       <file leaf-file-name="search_results.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/search_results.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
+            <state relative-caret-position="1170">
               <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-              <folding>
-                <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
-                <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
-                <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
-                <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
-                <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
-                <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,49 +92,28 @@
       <file leaf-file-name="profile.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/profile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
+            <state relative-caret-position="938">
               <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-              <folding>
-                <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
-                <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
-                <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
-                <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.erb">
+      <file leaf-file-name="post.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/post.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="66" />
-              <folding>
-                <marker date="1499269185786" expanded="true" signature="276:1091" ph="do ... end" />
-              </folding>
+            <state relative-caret-position="1396">
+              <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popular.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/popular.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-              <folding>
-                <marker date="1499269185799" expanded="true" signature="273:1103" ph="do ... end" />
-                <marker date="1499269185799" expanded="true" signature="984:1047" ph="..." />
-                <marker date="1499269185799" expanded="true" signature="984:1068" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/all.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="702">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -161,60 +133,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3042">
-              <caret line="117" column="30" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
-              <folding>
-                <marker date="1499269185784" expanded="true" signature="2147:2234" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="5414:5590" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="5592:5639" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="5649:5682" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="5684:5829" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="5847:6003" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="6005:6162" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="6230:6344" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="6346:6414" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="6427:6454" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="6456:6910" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="6946:7003" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="7021:7041" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="7043:7344" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="7387:7456" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="7565:7624" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="7626:7905" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="7993:8265" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="8079:8184" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="8351:8396" ph="{...}" />
-                <marker date="1499269185784" expanded="true" signature="8472:8585" ph="/*...*/" />
-                <marker date="1499269185784" expanded="true" signature="8697:8770" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_profile.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
+            <state relative-caret-position="910">
               <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
-              <folding>
-                <marker date="1499269185835" expanded="true" signature="4035:4049" ph="..." />
-                <marker date="1499269185835" expanded="true" signature="4035:4062" ph="..." />
-                <marker date="1499269185835" expanded="true" signature="4035:4073" ph="..." />
-                <marker date="1499269185835" expanded="true" signature="4035:4082" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hello.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="1215">
+              <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dffe37v92mjfrd.public.comment_sub_comments" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comment_sub_comments">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dffe37v92mjfrd.public.comments" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comments">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -229,6 +193,8 @@
       <list>
         <option value="$PROJECT_DIR$/views/all.erb" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/views/post.erb" />
+        <option value="$PROJECT_DIR$/hello.rb" />
       </list>
     </option>
   </component>
@@ -239,9 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="3840" />
-    <option name="height" value="2130" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -427,7 +392,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Ruby.hello">
+    <configuration default="false" name="hello" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Micro-Blog" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/hello.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -565,26 +549,43 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Ruby.hello" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.hello" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Updated">
+      <created>1499269300300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499269300300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95000" />
+    <option name="totallyTimeSpent" value="2151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="3840" height="2130" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08688784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17571884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1276988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19761075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25825346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21545158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.209557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -601,59 +602,19 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <marker date="1499269185798" expanded="true" signature="4818:4867" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5537" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5564" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5739" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5761" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5781" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5799" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5815" ph="if ... end" />
-            <marker date="1499269185798" expanded="true" signature="4818:5829" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5840" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5849" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5859" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4818:5881" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="4916:5179" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="5228:5346" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="5393:5507" ph="..." />
-            <marker date="1499269185798" expanded="true" signature="5617:5714" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/search_results.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
-            <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
-            <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,12 +632,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2158">
           <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding>
-            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,12 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -936,18 +882,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/post.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,18 +937,6 @@
             <marker date="1499269185798" expanded="true" signature="5393:5507" ph="..." />
             <marker date="1499269185798" expanded="true" signature="5617:5714" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.posts">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1078,55 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/search_results.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding>
-            <marker date="1499269185830" expanded="true" signature="184:356" ph="do ... end" />
-            <marker date="1499269185830" expanded="true" signature="2399:2462" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2483" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2502" ph="..." />
-            <marker date="1499269185830" expanded="true" signature="2399:2518" ph="do ... end" />
-            <marker date="1499269185830" expanded="true" signature="2399:2533" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding>
-            <marker date="1499269185821" expanded="true" signature="4945:4959" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4972" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4983" ph="..." />
-            <marker date="1499269185821" expanded="true" signature="4945:4992" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
-          <folding>
-            <marker date="1499269185835" expanded="true" signature="4035:4049" ph="..." />
-            <marker date="1499269185835" expanded="true" signature="4035:4062" ph="..." />
-            <marker date="1499269185835" expanded="true" signature="4035:4073" ph="..." />
-            <marker date="1499269185835" expanded="true" signature="4035:4082" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6682">
@@ -1137,8 +1015,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/all.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="702">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/search_results.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="938">
+          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comments">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user_profile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.comment_sub_comments">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/post.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1396">
+          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3086aac8/43a2fb18-1ee3-4ad1-89c3-9f4f68684d47/dffe37v92mjfrd.public.posts">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
           <folding />
         </state>
       </provider>

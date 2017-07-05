@@ -46,37 +46,36 @@
         <!-- Posted Comments -->
 
         <!-- Comment -->
-        <% @post.comments.each do |comment| %>
-            <div class="media">
-              <a class="pull-left" href="#">
-                <img class="media-object" src="<%= url('img/favicon.ico') %>" alt="">
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading"><%= comment.user.username %>
-                  <small><%= comment.date_created %></small>
-                </h4>
-                <%= comment.content %>
-                <% if !comment.comment_sub_comments.nil?
-                     comment.comment_sub_comments.each do |sub_comment| %>
-                        <!-- Nested Comment -->
-                        <div class="media">
-                          <a class="pull-left" href="#">
-                            <img class="media-object" src="http://placehold.it/64x64" alt="">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><%= sub_comment.user.username %>
-                              <small><%= sub_comment.date_created %></small>
-                            </h4>
-                            <%= sub_comment.content %>
+        <div class="container">
+          <div class="row">
+            <div class="comments col-md-9" id="comments">
+              <h3 class="mb-2">Comments</h3>
+              <% @post.comments.each do |comment| %>
+                  <div class="comment mb-2 row">
+                    <div class="comment-avatar col-md-1 col-sm-2 text-center pr-1">
+                      <a href=""><img class="mx-auto rounded-circle img-fluid" src="http://demos.themes.guide/bodeo/assets/images/users/m103.jpg" alt="avatar"></a>
+                    </div>
+                    <div class="comment-content col-md-11 col-sm-10">
+                      <h6 class="small comment-meta"><a href="#"><%= comment.user.username %></a> <%= comment.date_created %></h6>
+                      <div class="comment-body">
+                        <p>
+                          <%= comment.content %>
+                          <br>
+                          <a href="#sub-comment-form" class="text-right small" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"><i class="ion-reply"></i> Reply</a>
+                        </p>
+                        <form id="sub-comment-form" role="form" action="/post/<%= @post.id %>/<%= comment.id %>" method="post" class="collapse">
+                          <div class="form-group">
+                            <textarea name="sub-content" class="form-control" rows="3" form="sub-comment-form"></textarea>
                           </div>
-                        </div>
-                        <!-- End Nested Comment -->
-                    <% end %>
-                <% end %>
-              </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+              <% end %>
             </div>
-        <% end %>
-
+          </div>
+        </div>
       </div>
     </div>
   </div>
